@@ -1,4 +1,4 @@
-{composerEnv, fetchurl, fetchgit ? null, fetchhg ? null, fetchsvn ? null, noDev ? false, name ? "default"}:
+{composerEnv, fetchurl, fetchgit ? null, fetchhg ? null, fetchsvn ? null, src ? ./., noDev ? false, name ? "default"}:
 
 let
   packages = {
@@ -10,7 +10,7 @@ in
 composerEnv.buildPackage {
   inherit packages devPackages noDev;
   inherit name;
-  src = ./.;
+  inherit src;
   executable = false;
   symlinkDependencies = false;
   meta = {};
