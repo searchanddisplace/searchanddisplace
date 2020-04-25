@@ -20,7 +20,7 @@ nix-channel --update
 
 You can now install search-and-displace:
 ```bash
-nix-env -iA search-and-displace
+nix-env -i search-and-displace
 ```
 ## :roller_coaster: Usage
 
