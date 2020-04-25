@@ -1,6 +1,6 @@
 ## Search & Displace
 
-## :information_source: About
+## :cyclone: About
 
 Search and Displace is developing a workflow and toolchain which intends to address 
 the problem of mass search and displacement for document content where the original 
@@ -14,13 +14,13 @@ First install nix following the instructions on their website at https://nixos.o
 
 The add searchanddiplace channel to your nix environment and update it:
 ```bash
-nix-channel --add https://github.com/searchanddisplace/searchanddisplace/channel.tar.bz2
+nix-channel --add https://github.com/searchanddisplace/searchanddisplace/pkgs
 nix-channel --update
 ```
 
 You can now install search-and-displace:
-
-nix-env -iA searchanddisplace.default
-
+```bash
+nix-env -iA search-and-displace
+```
 ## :roller_coaster: Usage
 
