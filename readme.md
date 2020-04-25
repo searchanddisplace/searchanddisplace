@@ -12,9 +12,9 @@ where the only surviving form is printed or even handwritten.
 
 First install nix following the instructions on their website at https://nixos.org/nix/manual/#chap-installation
 
-The add searchanddiplace channel to your nix environment and update it:
+The add search-and-displace channel to your nix environment and update it:
 ```bash
-nix-channel --add https://github.com/searchanddisplace/searchanddisplace/pkgs
+nix-channel --add https://github.com/searchanddisplace/searchanddisplace/raw/master/pkgs/nixexprs.tar.xz
 nix-channel --update
 ```
 
