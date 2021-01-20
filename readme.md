@@ -1,5 +1,7 @@
 ## Search & Displace
 
+This work has found a new home at Git Law: https://git.law/newroco/searchanddisplace
+
 ## :cyclone: About
 
 Search and Displace is developing a workflow and toolchain which intends to address 
